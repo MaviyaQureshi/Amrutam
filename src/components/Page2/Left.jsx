@@ -15,10 +15,10 @@ import icon from "../../images/icon.png"
 const Left = () => {
     return (
         <>
-            <div className="flex flex-col justify-center w-[43rem]">
+            <div className="flex flex-col justify-center w-[39rem]">
                 <div className="border-2 border-[#DCDCDC] rounded-xl">
-                    <span className="flex justify-center space-x-[21rem] h-16 py-4 mb-10 rounded-t-xl bg-gradient-to-r from-[#F4F7EC] to-[#FCFCFC] ">
-                        <span className="text-2xl font-medium text-[#313131]">A Little About me</span>
+                    <span className="flex justify-center space-x-[18rem] h-16 py-4 mb-10 rounded-t-xl bg-gradient-to-r from-[#F4F7EC] to-[#FCFCFC] ">
+                        <span className="text-xl font-medium text-[#313131]">A Little About me</span>
                         <span className="">
                             <button className="flex justify-center items-center border-[1.5px] w-24 py-1 border-[#3A643B] rounded-lg text-[#585858]">
                                 <span className="pl-2 font-medium">
@@ -56,9 +56,9 @@ const Left = () => {
                 </div>
                 <div className="border-2 border-[#DCDCDC] rounded-xl mt-10">
                     <span className="flex pl-8 h-16 py-4 mb-10 rounded-t-xl bg-gradient-to-r from-[#F4F7EC] to-[#FCFCFC]">
-                        <span className="text-2xl font-medium text-[#313131]">I Specialize In</span>
+                        <span className="text-xl font-medium text-[#313131]">I Specialize In</span>
                     </span>
-                    <span className="flex ml-9 my-10">
+                    <span className="flex ml-4 my-10">
                         <span className="flex flex-row space-x-8">
                             <span className="flex flex-col justify-center items-center">
                                 <span className="bg-[#FFFCF2] border-2 border-[#E0E8E2] rounded-lg">
@@ -92,18 +92,18 @@ const Left = () => {
                 </div>
                 <div className="border-2 border-[#DCDCDC] rounded-xl my-10">
                     <span className="flex pl-8 h-16 py-4 mb-10 rounded-t-xl bg-gradient-to-r from-[#F4F7EC] to-[#FCFCFC]">
-                        <span className="text-2xl font-medium text-[#313131]">The Concerns I Treat</span>
+                        <span className="text-xl font-medium text-[#313131]">The Concerns I Treat</span>
                     </span>
-                    <span className="flex flex-col ml-9 space-y-5 mb-10">
-                        <span className="flex space-x-5">
-                            <span className="bg-[#F7F7FC] font-medium text-[#3A643B] px-4 py-2 w-40 rounded-2xl">Skin Treatment</span>
-                            <span className="bg-[#F7F7FC] font-medium text-[#3A643B] px-3 py-2 w-28 rounded-2xl">Pregnancy</span>
-                            <span className="bg-[#F7F7FC] font-medium text-[#3A643B] px-5 py-2 w-40 rounded-2xl">Period Doubts</span>
-                            <span className="bg-[#F7F7FC] font-medium text-[#3A643B] px-4 py-2 w-36 rounded-2xl">Endometriosis</span>
+                    <span className="flex flex-col ml-4 space-y-5 mb-10">
+                        <span className="flex space-x-3">
+                            <span className="flex items-center justify-center bg-[#F7F7FC] font-medium text-[#3A643B] py-2 w-36 rounded-2xl">Skin Treatment</span>
+                            <span className="flex items-center justify-center bg-[#F7F7FC] font-medium text-[#3A643B] py-2 w-28 rounded-2xl">Pregnancy</span>
+                            <span className="flex items-center justify-center bg-[#F7F7FC] font-medium text-[#3A643B] py-2 w-36 rounded-2xl">Period Doubts</span>
+                            <span className="flex items-center justify-center bg-[#F7F7FC] font-medium text-[#3A643B] py-2 w-36 rounded-2xl">Endometriosis</span>
                         </span>
                         <span className="flex space-x-5">
-                            <span className="bg-[#F7F7FC] font-medium text-[#3A643B] px-5 py-2 w-32 rounded-2xl">Pelvic Pain</span>
-                            <span className="bg-[#F7F7FC] font-medium text-[#3A643B] px-5 py-2 w-40 rounded-2xl">Ovarian Cysts</span>
+                            <span className="flex items-center justify-center bg-[#F7F7FC] font-medium text-[#3A643B] py-2 w-32 rounded-2xl">Pelvic Pain</span>
+                            <span className="flex items-center justify-center bg-[#F7F7FC] font-medium text-[#3A643B] py-2 w-40 rounded-2xl">Ovarian Cysts</span>
                             <span className="flex items-center justify-center py-2 w-32 border-2 border-[#E0DFDF] rounded-2xl">
                                 <span className="font-medium text-[#3A643B]"> <FaPlus className="h-3" /> </span>
                                 <span className=" font-medium text-[#3A643B]">
@@ -115,7 +115,7 @@ const Left = () => {
                 </div>
                 <div className="border-2 border-[#DCDCDC] rounded-xl mb-10">
                     <span className="flex pl-8 h-16 py-4 mb-10 rounded-t-xl bg-gradient-to-r from-[#F4F7EC] to-[#FCFCFC] ">
-                        <span className="text-2xl font-medium text-[#313131]">My Work Experience</span>
+                        <span className="text-xl font-medium text-[#313131]">My Work Experience</span>
                     </span>
                     <span className="flex font-medium text-[#3A643B] mb-5 ml-9 text-lg">
                         I HAVE BEEN IN PRACTICE FOR: 7+ YEARS
@@ -146,7 +146,7 @@ const Left = () => {
                 </div>
                 <div className="border-2 border-[#DCDCDC] rounded-xl mb-10">
                     <span className="flex pl-8 h-16 py-4 mb-10 rounded-t-xl bg-gradient-to-r from-[#F4F7EC] to-[#FCFCFC] ">
-                        <span className="text-2xl font-medium text-[#313131]">Featured Reviews(102) </span>
+                        <span className="text-xl font-medium text-[#313131]">Featured Reviews(102) </span>
                     </span>
                     <span className="flex flex-col mt-5 ml-10">
                         <span className="flex justify-between mx-4">

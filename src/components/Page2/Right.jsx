@@ -4,14 +4,14 @@ import { BiChevronLeftCircle, BiChevronRightCircle } from "react-icons/bi";
 
 const Right = () => {
     return (
-        <div className='w-[43.75rem] flex flex-col py-10 px-8 border-2 border-[#E8E8E8] rounded-xl'>
+        <div className='w-[39rem] flex flex-col py-10 px-8 border-2 border-[#E8E8E8] rounded-xl'>
             <span className='flex justify-between w-full py-3 mb-14 border-2 border-[#E8E8E8] rounded-xl'>
                 <span className='font-medium ml-8 text-lg'>Appointment Fee</span>
                 <span className='font-medium text-[#3A643B] mr-8 text-lg'>₹699.00</span>
             </span>
             <span className='flex items-center justify-start w-full'>
                 <span className='font-semibold text'>Select your mode of session</span>
-                <hr className="h-1 ml-5 w-3/5" />
+                <hr className="h-1 ml-5 w-[55%]" />
             </span>
             <span className='flex space-x-10 my-12 ml-3'>
                 <span className='flex flex-col space-y-1 items-center border-2 border-[#E8E8E8] py-3 w-44 rounded-lg'>
@@ -36,7 +36,7 @@ const Right = () => {
             </span>
             <span className='flex items-center justify-start w-full ml-6'>
                 <span className='font-semibold'>Pick a time slot</span>
-                <hr className="h-1 ml-5 w-[64%]" />
+                <hr className="h-1 ml-5 w-[60   %]" />
                 <span className="border-2 rounded-full ml-5 p-2">
                     <CiCalendar className="text-2xl" />
                 </span>
@@ -61,27 +61,27 @@ const Right = () => {
             </span>
             <span className="font-semibold mb-2">Morning</span>
             <span className="flex mt-4 space-x-6">
-                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 text-lg rounded-3xl">09:00 AM</span>
-                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 text-lg rounded-3xl">09:30 AM</span>
-                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 text-lg rounded-3xl">10:00 AM</span>
-                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 text-lg rounded-3xl">10:15 AM</span>
+                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 rounded-3xl">09:00 AM</span>
+                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 rounded-3xl">09:30 AM</span>
+                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 rounded-3xl">10:00 AM</span>
+                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 rounded-3xl">10:15 AM</span>
             </span>
             <span className="flex space-x-6 mt-4">
-                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 text-lg rounded-3xl">10:45 AM</span>
-                <span className="flex justify-center bg-[#3A643B] text-white border-2 border-[#EBEBEB] py-[20px] w-32 text-lg rounded-3xl">11:00 AM</span>
+                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 rounded-3xl">10:45 AM</span>
+                <span className="flex justify-center bg-[#3A643B] text-white border-2 border-[#EBEBEB] py-[20px] w-32 rounded-3xl">11:00 AM</span>
             </span>
             <span className="font-semibold mb-2 mt-10">Evening</span>
             <span className="flex mt-4 space-x-6">
-                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 text-lg rounded-3xl">04:00 PM</span>
-                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 text-lg rounded-3xl">04:15 PM</span>
-                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 text-lg rounded-3xl">04:30 PM</span>
-                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 text-lg rounded-3xl">04:45 PM</span>
+                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 rounded-3xl">04:00 PM</span>
+                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 rounded-3xl">04:15 PM</span>
+                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 rounded-3xl">04:30 PM</span>
+                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 rounded-3xl">04:45 PM</span>
             </span>
             <span className="flex space-x-6 mt-4">
-                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 text-lg rounded-3xl">05:15 PM</span>
+                <span className="flex justify-center border-2 border-[#EBEBEB] py-[20px] w-32 rounded-3xl">05:15 PM</span>
             </span>
             <span className="flex justify-center mt-12">
-                <button className="bg-[#3A643B] text-white text-lg font-medium w-full py-5 rounded-xl">Make An Appointment</button>
+                <button className="bg-[#3A643B] text-white font-medium w-full py-5 rounded-xl">Make An Appointment</button>
             </span>
         </div>
     )

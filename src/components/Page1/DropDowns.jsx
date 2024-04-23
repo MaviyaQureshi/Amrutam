@@ -2,7 +2,7 @@ const DropDowns = () => {
     return (
         <>
 
-            <div className='flex justify-between border py-5 px-80'>
+            <div className='flex justify-between border py-5 px-60 space-x-6'>
                 <div>
                     <select className='bg-[#F3F3F3] w-48 py-3 pl-6 rounded-lg focus:border-none'>
                         <option value="None" selected disabled hidden>Expertise</option>

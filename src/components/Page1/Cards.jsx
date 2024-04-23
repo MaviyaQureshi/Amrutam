@@ -10,7 +10,7 @@ const Cards = () => {
     return (
         <>
             <div className="flex justify-center items-center py-20 space-x-6">
-                <div className='bg-[#FFF7E2] w-[28rem] flex flex-col justify-center items-center py-10 rounded-xl shadow-lg border-2 border-gray-100'>
+                <div className='bg-[#FFF7E2] w-[24rem] flex flex-col justify-center items-center py-10 rounded-xl shadow-lg border-2 border-gray-100'>
                     <span className="flex justify-center items-center z-1 h-2/4 w-2/4">
                         <img src={dr} className="h-full w-full" />
                     </span>
@@ -22,13 +22,13 @@ const Cards = () => {
                             <img src={star} />
                         </span>
                     </div>
-                    <p className="text-[2.5rem] font-medium tracking-wide my-3">Dr.Prerna Narang</p>
+                    <p className="text-3xl font-medium tracking-wide my-3">Dr.Prerna Narang</p>
                     <div className="flex flex-col items-start space-y-2">
                         <p className="flex justify-center items-center space-x-4">
                             <span>
                                 <img src={Frame} />
                             </span>
-                            <span className="text-lg">
+                            <span>
                                 Male-Female Infertility
                             </span>
                         </p>
@@ -36,7 +36,7 @@ const Cards = () => {
                             <span>
                                 <img src={scholar} />
                             </span>
-                            <span className="text-lg">
+                            <span>
                                 7 years of Experience
                             </span>
                         </p>
@@ -44,7 +44,7 @@ const Cards = () => {
                             <span>
                                 <img src={msg} />
                             </span>
-                            <span className="text-lg">
+                            <span>
                                 Speaks: English, Hindi, Marathi
                             </span>
                         </p>
@@ -70,7 +70,7 @@ const Cards = () => {
                     <Link to="/profile"> <button className="mt-3 bg-white border-2 border-[#3A643B] py-3 w-[22rem] text-[#3A643B] font-medium rounded-lg">View Profile</button> </Link>
                     <button className="mt-3 border-2 bg-[#3A643B] py-3 w-[22rem] text-white font-medium rounded-lg">Book a consultation</button>
                 </div>
-                <div className='bg-[#FFF7E2] w-[28rem] flex flex-col justify-center items-center py-10 rounded-xl shadow-lg border-2 border-gray-100'>
+                <div className='bg-[#FFF7E2] w-[24rem] flex flex-col justify-center items-center py-10 rounded-xl shadow-lg border-2 border-gray-100'>
                     <span className="flex justify-center items-center z-1 h-2/4 w-2/4">
                         <img src={dr} className="h-full w-full" />
                     </span>
@@ -82,13 +82,13 @@ const Cards = () => {
                             <img src={star} />
                         </span>
                     </div>
-                    <p className="text-[2.5rem] font-medium tracking-wide my-3">Dr.Prerna Narang</p>
+                    <p className="text-3xl font-medium tracking-wide my-3">Dr.Prerna Narang</p>
                     <div className="flex flex-col items-start space-y-2">
                         <p className="flex justify-center items-center space-x-4">
                             <span>
                                 <img src={Frame} />
                             </span>
-                            <span className="text-lg">
+                            <span>
                                 Male-Female Infertility
                             </span>
                         </p>
@@ -96,7 +96,7 @@ const Cards = () => {
                             <span>
                                 <img src={scholar} />
                             </span>
-                            <span className="text-lg">
+                            <span>
                                 7 years of Experience
                             </span>
                         </p>
@@ -104,7 +104,7 @@ const Cards = () => {
                             <span>
                                 <img src={msg} />
                             </span>
-                            <span className="text-lg">
+                            <span>
                                 Speaks: English, Hindi, Marathi
                             </span>
                         </p>
@@ -130,7 +130,7 @@ const Cards = () => {
                     <Link to="/profile"> <button className="mt-3 bg-white border-2 border-[#3A643B] py-3 w-[22rem] text-[#3A643B] font-medium rounded-lg">View Profile</button> </Link>
                     <button className="mt-3 border-2 bg-[#3A643B] py-3 w-[22rem] text-white font-medium rounded-lg">Book a consultation</button>
                 </div>
-                <div className='bg-[#FFF7E2] w-[28rem] flex flex-col justify-center items-center py-10 rounded-xl shadow-lg border-2 border-gray-100'>
+                <div className='bg-[#FFF7E2] w-[24rem] flex flex-col justify-center items-center py-10 rounded-xl shadow-lg border-2 border-gray-100'>
                     <span className="flex justify-center items-center z-1 h-2/4 w-2/4">
                         <img src={dr} className="h-full w-full" />
                     </span>
@@ -142,13 +142,13 @@ const Cards = () => {
                             <img src={star} />
                         </span>
                     </div>
-                    <p className="text-[2.5rem] font-medium tracking-wide my-3">Dr.Prerna Narang</p>
+                    <p className="text-3xl font-medium tracking-wide my-3">Dr.Prerna Narang</p>
                     <div className="flex flex-col items-start space-y-2">
                         <p className="flex justify-center items-center space-x-4">
                             <span>
                                 <img src={Frame} />
                             </span>
-                            <span className="text-lg">
+                            <span>
                                 Male-Female Infertility
                             </span>
                         </p>
@@ -156,7 +156,7 @@ const Cards = () => {
                             <span>
                                 <img src={scholar} />
                             </span>
-                            <span className="text-lg">
+                            <span>
                                 7 years of Experience
                             </span>
                         </p>
@@ -164,7 +164,7 @@ const Cards = () => {
                             <span>
                                 <img src={msg} />
                             </span>
-                            <span className="text-lg">
+                            <span>
                                 Speaks: English, Hindi, Marathi
                             </span>
                         </p>

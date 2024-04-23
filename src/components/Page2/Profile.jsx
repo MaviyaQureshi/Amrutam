@@ -9,14 +9,14 @@ const Profile = () => {
             <div className="flex justify-center pt-14 z-1">
                 <img src={bg2} className="w-10/12" />
             </div>
-            <div className="flex justify-center space-x-14 z-2 -mt-52">
+            <div className="flex justify-center space-x-16 z-2 -mt-52">
                 <span className="flex">
                     <img src={dr} className="border-2 border-[#D8D8D8] rounded-full" />
 
                     <span className="flex flex-col mt-14 ml-5">
                         <span className="flex justify-center items-center">
-                            <p className="text-3xl font-medium">Dr.Prerna Narang</p>
-                            <img src={verified} className="ml-2 w-8 mt-1" />
+                            <p className="text-2xl font-medium">Dr.Prerna Narang</p>
+                            <img src={verified} className="ml-2 w-6 mt-1" />
                         </span>
                         <p className="text-lg font-medium text-[#3A643B] mt-1">Gynecologist</p>
                         <span className="flex space-x-2 mt-1">
@@ -32,7 +32,7 @@ const Profile = () => {
                 </span>
 
 
-                <span className="flex mt-20 space-x-28">
+                <span className="flex mt-20 space-x-20">
                     <span className="flex flex-col items-center font-medium">
                         <span className="text-[#3A643B] text-xl">
                             Followers
@@ -60,7 +60,7 @@ const Profile = () => {
                 </span>
 
                 <span className="mt-20">
-                    <button className="text-white bg-[#3A643B] py-4 w-72 rounded-lg text-xl">Book an Appointment</button>
+                    <button className="text-white bg-[#3A643B] py-4 w-60 rounded-lg text-lg">Book an Appointment</button>
                 </span>
 
             </div>
